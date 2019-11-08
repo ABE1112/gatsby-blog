@@ -1,3 +1,4 @@
+
 import { graphql, Link, StaticQuery } from 'gatsby';
 import * as React from 'react';
 import { css } from '@emotion/core';
@@ -38,7 +39,7 @@ const SiteNavLogo = () => (
   <StaticQuery
     query={graphql`
       query HeadingQuery {
-        logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
+        logo: file(relativePath: { eq: "" }) {
           childImageSharp {
             fixed {
               ...GatsbyImageSharpFixed

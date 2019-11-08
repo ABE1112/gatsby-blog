@@ -1,8 +1,8 @@
 ---
-title: "Great Gatsby"
+title: "Front End Development"
 author: Another Author
 tags: []
-image: img/marvin-meyer-794521-unsplash.jpg
+image: img/font1.png
 date: "1922-12-12T10:00:00.000Z"
 draft: false
 ---
