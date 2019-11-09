@@ -1,11 +1,11 @@
 ---
 layout: post
-title: A Full and Comprehensive Style Test
+title: "Wordpress and Gatsby"
 image: img/wordpress5.png
-author: Ghost
-date: 2018-09-30T07:03:47.149Z
-tags:
-  - Tests
+author: Abraham
+date: 2019-11-10T07:03:47.149Z
+tags: []
+#  - Tests
 ---
 
 Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.

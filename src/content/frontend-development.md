@@ -1,9 +1,9 @@
 ---
 title: "Front End Development"
-author: Another Author
+author: Abraham
 tags: []
 image: img/font1.png
-date: "1922-12-12T10:00:00.000Z"
+date: "2019-11-10T10:00:00.000Z"
 draft: false
 ---
 

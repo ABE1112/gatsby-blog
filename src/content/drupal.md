@@ -1,11 +1,11 @@
 ---
 layout: post
-title: It's all about that Drupal
+title: "It's all about that Drupal"
 image: img/drupal4.png
-author: Ghost
-date: 2019-03-10T10:00:00.000Z
-tags:
-  - Source
+author: Abraham
+date: 2019-11-10T10:00:00.000Z
+tags: []
+#  - Source
 ---
 
 You'll find the source of this blog on GitHub.  

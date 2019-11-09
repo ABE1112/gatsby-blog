@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Why use Drupal and Gatsby"
-author: Ghost
-tags: ["Getting Started"]
+author: Abraham
+tags: []
 image: img/dg.png
-date: "2015-02-02T23:46:37.121Z"
+date: "2019-11-10T23:46:37.121Z"
 draft: false
 ---
 

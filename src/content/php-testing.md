@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "The Purpose of Education"
-author: Ghost
-tags: ["Speeches"]
+author: Abraham
+tags: ["PHP Testing"]
 image: img/unit.png
-date: "2012-08-20T15:11:55.000Z"
+date: "2019-11-10T15:11:55.000Z"
 draft: false
 ---
 
