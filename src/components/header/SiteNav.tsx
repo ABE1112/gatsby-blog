@@ -140,7 +140,7 @@ class SiteNav extends React.Component<SiteNavProps> {
               <Link to="/about">About</Link>
             </li>
             <li role="menuitem">
-              <a href="https://abe-portfolio.netlify.com">Portfolio</a>
+              <Link to="/portfolio">Portfolio</Link>
             </li>
           </ul>
         </SiteNavLeft>
@@ -180,3 +180,4 @@ class SiteNav extends React.Component<SiteNavProps> {
 }
 
 export default SiteNav;
+  //  <a href="https://abe-portfolio.netlify.com">Portfolio</a>
