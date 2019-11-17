@@ -9,6 +9,7 @@ import { PostFullHeader, PostFullTitle, NoImage, PostFull } from '../templates/p
 import { PostFullContent } from '../components/PostContent';
 import Footer from '../components/Footer';
 import Helmet from 'react-helmet';
+import Chart from '../content/img/chart.png';
 
 const PageTemplate = css`
   .site-main {
@@ -36,7 +37,7 @@ const About: React.FC = () => (
 
           <PostFullContent className="post-full-content">
             <div className="post-content">
-              <img src="https://codecondo.com/wp-content/uploads/2017/11/Web-Development-Skills.png"/>
+              <img src={Chart} alt="chart" />
               <p>
                 My name is Abraham and I am a professional web developer. I have a passion for
                 creating web applications. I love to code and have fun doing it. I have been
