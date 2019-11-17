@@ -116,13 +116,16 @@ const PageTemplate = css`
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlVjl0FkIDMdXWrvGJ49Y34M5zW6xSDRH-3Ft8b-JHuO3Dj5JhGQ&s);
   }
   .card__image--react {
-    background-image: url(https://i0.wp.com/2018.sanjose.wordcamp.org/files/2018/06/react.jpg?fit=1200%2C900&ssl=1);
+    background-image: url(https://drupalchamp.org/sites/default/files/styles/blog_detail/public/2019-02/react_drupal.png?itok=JIYSqtUV);
   }
   .card__image--symfony {
     background-image: url(https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032013/symfony_black_01.png?itok=mh6RAYNa);
   }
   .card__image--laravel {
     background-image: url(https://www.secret-source.eu/wp-content/uploads/2017/11/Laravel-logo.jpg);
+  }
+  .card__image--react--native {
+    background-image: url(https://blog.launchdarkly.com/wp-content/uploads/2019/05/react-native-workshop-1024x538.jpg);
   }
   .card__title {
     color: #696969;
@@ -138,6 +141,32 @@ const PageTemplate = css`
     margin-bottom: 1.25rem;
   }
 
+  .button, button a, .button{
+  position:relative;
+  /* style|variant|weight|size/line-height|family */
+  font: 500 14px Arial;
+  letter-spacing: 0.5px;
+  color:#fff !important;
+  border: 0;
+  border-radius: 5px;
+  cursor:pointer;
+  text-decoration:none;
+}
+
+.button, .button{
+  min-width: 100px;
+  margin: 2px;
+  padding:8px 10px;
+  background-color: #0092ba;/* for non linear-gradient browsers */
+  background: linear-gradient(to bottom, #24A1C3 5%, #0092BB 100%) repeat scroll 0 0 #24A1C3;
+}
+
+.button{display:inline-block;min-width:80px;text-align:center;white-space:nowrap;}
+
+.button:hover,a.button:hover{
+  background:linear-gradient(to bottom, #0092BB 5%, #24A1C3 100%) repeat scroll 0 0 #0092BB;
+}
+.button:active{top:1px;}
 
 `;
 
@@ -165,10 +194,10 @@ const Portfolio: React.FC = () => (
     <div class="card">
       <div class="card__image card__image--drupal"></div>
       <div class="card__content">
-        <div class="card__title">Flex Grow</div>
-        <p class="card__text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-        <button class="btn btn--block card__btn">Website</button>
-        <button class="btn btn--block card__btn">Github</button>
+        <div class="card__title"><strong>Drupal 8 + Bootstrap 3 sass</strong></div>
+        <p class="card__text">A drupal 8 website design with bootstrap 3 sass. <strong>Coming soon....</strong></p>
+        <a class="button" href="#" target="_blank">Website</a>
+        <a class="button" href="#" target="_blank">Github</a>
       </div>
     </div>
   </li>
@@ -176,10 +205,10 @@ const Portfolio: React.FC = () => (
       <div class="card">
         <div class="card__image card__image--drupal1"></div>
         <div class="card__content">
-          <div class="card__title">Flex Grow</div>
-          <p class="card__text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-          <button class="btn btn--block card__btn">Website</button>
-          <button class="btn btn--block card__btn">Github</button>
+          <div class="card__title"><strong>Drupal 8 + Gatsby</strong></div>
+          <p class="card__text">A website using Drupal as a backend and Gatsby as a frontend. <strong>Complete</strong></p>
+          <a class="button" href="https://drupal8-gatsby-example.netlify.com/" target="_blank">Website</a>
+          <a class="button" href="https://github.com/ABE1112/Drupal-Gatsby-example" target="_blank">Github</a>
         </div>
       </div>
     </li>
@@ -187,10 +216,10 @@ const Portfolio: React.FC = () => (
       <div class="card">
         <div class="card__image card__image--wordpress"></div>
         <div class="card__content">
-          <div class="card__title">Flex Basis</div>
-          <p class="card__text">This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means "look at my width or height property."</p>
-          <button class="btn btn--block card__btn">Website</button>
-          <button class="btn btn--block card__btn">Github</button>
+          <div class="card__title"><strong>Wordpress + Gatsby</strong></div>
+          <p class="card__text">A website using Wordpress as a backend and Gatsby as a frontend <strong>Coming soon....</strong></p>
+          <a class="button" href="#" target="_blank">Website</a>
+          <a class="button" href="#" target="_blank">Github</a>
         </div>
       </div>
     </li>
@@ -198,10 +227,10 @@ const Portfolio: React.FC = () => (
       <div class="card">
         <div class="card__image card__image--symfony"></div>
         <div class="card__content">
-          <div class="card__title">Flex Basis</div>
-          <p class="card__text">This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means "look at my width or height property."</p>
-          <button class="btn btn--block card__btn">Website</button>
-          <button class="btn btn--block card__btn">Github</button>
+          <div class="card__title"><strong>Symfony 4</strong></div>
+          <p class="card__text">A simple Symfony 4 CRUD application using a database <strong>Coming soon....</strong></p>
+          <a class="button" href="#" target="_blank">Website</a>
+          <a class="button" href="#" target="_blank">Github</a>
         </div>
       </div>
     </li>
@@ -209,10 +238,10 @@ const Portfolio: React.FC = () => (
       <div class="card">
         <div class="card__image card__image--react"></div>
         <div class="card__content">
-          <div class="card__title">Flex Basis</div>
-          <p class="card__text">This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means "look at my width or height property."</p>
-          <button class="btn btn--block card__btn">Website</button>
-          <button class="btn btn--block card__btn">Github</button>
+          <div class="card__title"><strong>Drupal 8 + React</strong></div>
+          <p class="card__text">A website using Drupal as a backend and React as a frontend <strong>Coming soon....</strong></p>
+          <a class="button" href="#" target="_blank">Website</a>
+          <a class="button" href="#" target="_blank">Github</a>
         </div>
       </div>
     </li>
@@ -220,15 +249,25 @@ const Portfolio: React.FC = () => (
       <div class="card">
         <div class="card__image card__image--laravel"></div>
         <div class="card__content">
-          <div class="card__title">Flex Basis</div>
-          <p class="card__text">This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means "look at my width or height property."</p>
-          <button class="btn btn--block card__btn">Website</button>
-          <button class="btn btn--block card__btn">Github</button>
+          <div class="card__title"><strong>Laravel</strong></div>
+          <p class="card__text">A website using laravel and a database to showcase  <strong>Coming soon....</strong></p>
+          <a class="button" href="#" target="_blank">Website</a>
+          <a class="button" href="#" target="_blank">Github</a>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image card__image--react--native"></div>
+        <div class="card__content">
+          <div class="card__title"><strong>Drupal 8 + React Native</strong></div>
+          <p class="card__text">A website using Drupal 8 and React Native to showcase mobile app <strong>Coming soon....</strong></p>
+          <a class="button" href="#" target="_blank">Website</a>
+          <a class="button" href="#" target="_blank">Github</a>
         </div>
       </div>
     </li>
   </ul>
-
 
 
         </article>
