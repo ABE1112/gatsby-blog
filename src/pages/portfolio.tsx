@@ -203,7 +203,7 @@ const Portfolio: React.FC = () => (
         <div class="card__image card__image--drupal1"></div>
         <div class="card__content">
           <div class="card__title"><strong>Drupal 8 + Gatsby</strong></div>
-          <p class="card__text">A website using Drupal as a backend and Gatsby as a frontend. <strong>Complete</strong></p>
+          <p class="card__text">A website using Drupal as a backend and Gatsby as a frontend. <strong>Completed</strong></p>
           <a class="button" href="https://drupal8-gatsby-example.netlify.com/" target="_blank">Website</a>
           <a class="button" href="https://github.com/ABE1112/Drupal-Gatsby-example" target="_blank">Github</a>
         </div>
