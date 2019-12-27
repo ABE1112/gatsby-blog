@@ -121,9 +121,6 @@ const PageTemplate = css`
   .card__image--symfony {
     background-image: url(https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032013/symfony_black_01.png?itok=mh6RAYNa);
   }
-  .card__image--laravel {
-    background-image: url(https://www.secret-source.eu/wp-content/uploads/2017/11/Laravel-logo.jpg);
-  }
   .card__image--react--native {
     background-image: url(https://blog.launchdarkly.com/wp-content/uploads/2019/05/react-native-workshop-1024x538.jpg);
   }
@@ -245,17 +242,7 @@ const Portfolio: React.FC = () => (
         </div>
       </div>
     </li>
-    <li class="cards__item">
-      <div class="card">
-        <div class="card__image card__image--laravel"></div>
-        <div class="card__content">
-          <div class="card__title"><strong>Laravel</strong></div>
-          <p class="card__text">A website using laravel and a database to showcase  <strong>Coming soon....</strong></p>
-          <a class="button" href="#" target="_blank">Website</a>
-          <a class="button" href="#" target="_blank">Github</a>
-        </div>
-      </div>
-    </li>
+
     <li class="cards__item">
       <div class="card">
         <div class="card__image card__image--react--native"></div>
