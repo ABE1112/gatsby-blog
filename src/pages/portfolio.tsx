@@ -107,7 +107,7 @@ const PageTemplate = css`
     }
   }
   .card__image--drupal {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeqGEB5g8kG8SbNSgBdR7VbbFew8hqk4VmbKD49WnR97IX7eIw&s);
+    background-image: url(https://i.udemycdn.com/course/240x135/1554318_2ec4_2.jpg);
   }
   .card__image--drupal1 {
     background-image: url(https://www.bounteous.com/sites/default/files/styles/default/public/insights/2018-11/previews/understanding_the_limitations_of_gatsby-source_drupal.png?itok=pEgpvxu3);
@@ -194,9 +194,9 @@ const Portfolio: React.FC = () => (
     <div class="card">
       <div class="card__image card__image--drupal"></div>
       <div class="card__content">
-        <div class="card__title"><strong>Drupal 8 + Bootstrap 3 sass</strong></div>
-        <p class="card__text">A drupal 8 website design with bootstrap 3 sass. <strong>Coming soon....</strong></p>
-        <a class="button" href="#" target="_blank">Website</a>
+        <div class="card__title"><strong>Drupal 8 + Materialize CSS</strong></div>
+        <p class="card__text">A drupal 8 website design with materialize css and paragraphs module. <strong>Compeleted</strong></p>
+        <a class="button" href="https://dev-drupal-materialize.pantheonsite.io/" target="_blank">Website</a>
         <a class="button" href="#" target="_blank">Github</a>
       </div>
     </div>
