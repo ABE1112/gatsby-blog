@@ -195,7 +195,7 @@ const Portfolio: React.FC = () => (
       <div class="card__image card__image--drupal"></div>
       <div class="card__content">
         <div class="card__title"><strong>Drupal 8 + Materialize CSS</strong></div>
-        <p class="card__text">A drupal 8 website design with materialize css and paragraphs module. <strong>Compeleted</strong></p>
+        <p class="card__text">A drupal 8 website design with materialize css and paragraphs module. <strong>Completed</strong></p>
         <a class="button" href="https://dev-drupal-materialize.pantheonsite.io/" target="_blank">Website</a>
         <a class="button" href="#" target="_blank">Github</a>
       </div>
