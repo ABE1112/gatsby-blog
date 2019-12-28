@@ -119,7 +119,7 @@ const PageTemplate = css`
     background-image: url(https://drupalchamp.org/sites/default/files/styles/blog_detail/public/2019-02/react_drupal.png?itok=JIYSqtUV);
   }
   .card__image--wordpress-simple {
-    background-image: url(https://s.w.org/style/images/about/WordPress-logotype-wmark.png);
+    background-image: url(http://www.pngall.com/wp-content/uploads/2016/05/WordPress-Logo-Download-PNG.png);
   }
   .card__image--react--native {
     background-image: url(https://blog.launchdarkly.com/wp-content/uploads/2019/05/react-native-workshop-1024x538.jpg);
