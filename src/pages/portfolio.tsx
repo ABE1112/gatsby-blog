@@ -118,7 +118,7 @@ const PageTemplate = css`
   .card__image--react {
     background-image: url(https://drupalchamp.org/sites/default/files/styles/blog_detail/public/2019-02/react_drupal.png?itok=JIYSqtUV);
   }
-  .card__image--wordpress {
+  .card__image--wordpress-simple {
     background-image: url(https://s.w.org/style/images/about/WordPress-logotype-wmark.png);
   }
   .card__image--react--native {
@@ -222,7 +222,7 @@ const Portfolio: React.FC = () => (
     </li>
     <li class="cards__item">
       <div class="card">
-        <div class="card__image card__image--wordpress"></div>
+        <div class="card__image card__image--wordpress-simple"></div>
         <div class="card__content">
           <div class="card__title"><strong>WordPress</strong></div>
           <p class="card__text">A simple WordPress site <strong>Complete</strong></p>
