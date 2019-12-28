@@ -225,7 +225,7 @@ const Portfolio: React.FC = () => (
         <div class="card__image card__image--wordpress-simple"></div>
         <div class="card__content">
           <div class="card__title"><strong>WordPress</strong></div>
-          <p class="card__text">A simple WordPress site <strong>Complete</strong></p>
+          <p class="card__text">A simple WordPress site using a responsive theme design<strong>Complete</strong></p>
           <a class="button" href="https://digitalbusinessplus.wordpress.com" target="_blank">Website</a>
           <a class="button" href="#" target="_blank">Github</a>
         </div>
