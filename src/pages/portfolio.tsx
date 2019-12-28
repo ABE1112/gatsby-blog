@@ -118,8 +118,8 @@ const PageTemplate = css`
   .card__image--react {
     background-image: url(https://drupalchamp.org/sites/default/files/styles/blog_detail/public/2019-02/react_drupal.png?itok=JIYSqtUV);
   }
-  .card__image--symfony {
-    background-image: url(https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032013/symfony_black_01.png?itok=mh6RAYNa);
+  .card__image--wordpress {
+    background-image: url(https://s.w.org/style/images/about/WordPress-logotype-wmark.png);
   }
   .card__image--react--native {
     background-image: url(https://blog.launchdarkly.com/wp-content/uploads/2019/05/react-native-workshop-1024x538.jpg);
@@ -222,11 +222,11 @@ const Portfolio: React.FC = () => (
     </li>
     <li class="cards__item">
       <div class="card">
-        <div class="card__image card__image--symfony"></div>
+        <div class="card__image card__image--wordpress"></div>
         <div class="card__content">
-          <div class="card__title"><strong>Symfony 4</strong></div>
-          <p class="card__text">A simple Symfony 4 CRUD application using a database <strong>Coming soon....</strong></p>
-          <a class="button" href="#" target="_blank">Website</a>
+          <div class="card__title"><strong>WordPress</strong></div>
+          <p class="card__text">A simple WordPress site <strong>Complete</strong></p>
+          <a class="button" href="https://digitalbusinessplus.wordpress.com" target="_blank">Website</a>
           <a class="button" href="#" target="_blank">Github</a>
         </div>
       </div>
