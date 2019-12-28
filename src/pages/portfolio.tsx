@@ -119,7 +119,7 @@ const PageTemplate = css`
     background-image: url(https://drupalchamp.org/sites/default/files/styles/blog_detail/public/2019-02/react_drupal.png?itok=JIYSqtUV);
   }
   .card__image--wordpress-simple {
-    background-image: url(https://cdn.mos.cms.futurecdn.net/kRGdMpiKQ4EsFeAmBpxnL3.jpg);
+    background-image: url(https://mle1hmy3o5x9.i.optimole.com/w:633/h:432/q:100/https://www.web-designlondon.co.uk/wp-content/uploads/2014/09/wordpress.jpg);
   }
   .card__image--react--native {
     background-image: url(https://blog.launchdarkly.com/wp-content/uploads/2019/05/react-native-workshop-1024x538.jpg);
@@ -225,7 +225,7 @@ const Portfolio: React.FC = () => (
         <div class="card__image card__image--wordpress-simple"></div>
         <div class="card__content">
           <div class="card__title"><strong>WordPress</strong></div>
-          <p class="card__text">A simple WordPress site using a responsive theme design <strong>Complete</strong></p>
+          <p class="card__text">A simple WordPress site using a responsive theme design. <strong>Complete</strong></p>
           <a class="button" href="https://digitalbusinessplus.wordpress.com" target="_blank">Website</a>
           <a class="button" href="#" target="_blank">Github</a>
         </div>
