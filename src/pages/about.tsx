@@ -39,20 +39,18 @@ const About: React.FC = () => (
             <div className="post-content">
               <img src={Chart} alt="chart" />
               <p>
-                My name is Abraham and I am a professional web developer. I have a passion for
-                creating web applications. I love to code and have fun doing it. I have been
-                coding web applications for 3 years. I also dabble in mobile applications mostly
-                with react native.
+                My name is Abraham and I am a professional web developer. I have a passion for creating web applications.
+                I love to code and have fun doing it. I have been coding web applications for 3 years. I also dabble in
+                mobile applications mostly with react native.
               </p>
               <p>
-                I have experience developing drupal and wordpress applications with having a specialization
-                in drupal 8. I also have experience with symfony and laravel. My frontend skills involve
-                html 5, css 3, sass, javascript and jquery. I also have experience working with databases such as firebase,
-                mysql and postgresql.
+                I have experience developing Drupal and WordPress applications with having a specialization in Drupal 8.
+                I also have experience with symfony and laravel. My front-end skills involve html 5, css 3, sass, JavaScript
+                and jquery. I also have experience working with databases such as firebase, mysql and PostgreSQL.
               </p>
               <p>
-                I am a passionate indvivdual and I believe I can bring value tp your company. Please be sure to check
-                out my portfolio.
+                I am a passionate individual and I believe I can bring value to your company. Please be sure to check out
+                my portfolio.
               </p>
             </div>
           </PostFullContent>
