@@ -236,9 +236,9 @@ const Portfolio: React.FC = () => (
         <div class="card__image card__image--react"></div>
         <div class="card__content">
           <div class="card__title"><strong>React Wiki api example</strong></div>
-          <p class="card__text">A website with React using the wikipedia api. <strong>Completed</strong></p>
-          <a class="button" href="#" target="_blank">Website</a>
-          <a class="button" href="#" target="_blank">Github</a>
+          <p class="card__text">A simple website with React using the wikipedia api. <strong>Completed</strong></p>
+          <a class="button" href="https://wiki-react-api-example.netlify.com/" target="_blank">Website</a>
+          <a class="button" href="https://github.com/ABE1112/Wiki-search-api-example" target="_blank">Github</a>
         </div>
       </div>
     </li>
