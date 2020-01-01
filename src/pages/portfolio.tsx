@@ -116,7 +116,7 @@ const PageTemplate = css`
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlVjl0FkIDMdXWrvGJ49Y34M5zW6xSDRH-3Ft8b-JHuO3Dj5JhGQ&s);
   }
   .card__image--react {
-    background-image: url(https://drupalchamp.org/sites/default/files/styles/blog_detail/public/2019-02/react_drupal.png?itok=JIYSqtUV);
+    background-image: url(https://newnexus.nl/wp-content/uploads/2019/09/react-logo.jpg);
   }
   .card__image--wordpress-simple {
     background-image: url(https://mle1hmy3o5x9.i.optimole.com/w:633/h:432/q:100/https://www.web-designlondon.co.uk/wp-content/uploads/2014/09/wordpress.jpg);
@@ -235,8 +235,8 @@ const Portfolio: React.FC = () => (
       <div class="card">
         <div class="card__image card__image--react"></div>
         <div class="card__content">
-          <div class="card__title"><strong>Drupal 8 + React</strong></div>
-          <p class="card__text">A website using Drupal as a backend and React as a frontend <strong>Coming soon....</strong></p>
+          <div class="card__title"><strong>React Wiki api example</strong></div>
+          <p class="card__text">A website with React using the wikipedia api. <strong>Completed</strong></p>
           <a class="button" href="#" target="_blank">Website</a>
           <a class="button" href="#" target="_blank">Github</a>
         </div>
